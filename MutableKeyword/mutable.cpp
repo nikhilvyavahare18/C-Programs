@@ -13,7 +13,7 @@ public:
     public:
     void show() const
     {
-        a=40;
+        a=40;                   //mutable change the value in const method
         std::cout<<a<<std::endl;
         std::cout<<b<<std::endl;
     }
